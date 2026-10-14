@@ -50,6 +50,9 @@
   .proj h3 { font-size: 20px; margin: 8px 0; }
   .proj p { color: var(--muted); font-size: 15px; flex: 1; }
   .proj .tag { font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 16px; color: var(--muted); }
+  .proj .tag.live { display: flex; flex-wrap: wrap; gap: 20px; }
+  .proj .tag.live a { color: var(--red); font-weight: 700; text-decoration: none; }
+  .proj .tag.live a:hover { text-decoration: underline; }
   .contact { font-size: clamp(28px, 4vw, 48px); font-weight: 800; letter-spacing: -1.5px; line-height: 1.15; }
   .contact a { text-decoration: none; border-bottom: 4px solid var(--red); }
   .links { display: flex; gap: 24px; margin-top: 28px; font-size: 15px; }
@@ -122,7 +125,7 @@
   <section id="projects">
     <h2><span>03</span>Projects</h2>
     <div class="projects">
-      <div class="proj"><span class="n">01</span><h3>E-commerce Demo Store</h3><p>Product catalogue, filters, cart and checkout flow.</p><span class="tag">Coming soon</span></div>
+      <div class="proj"><span class="n">01</span><h3>Alpenmarkt: E-commerce Demo Store</h3><p>Swiss regional food shop in React and TypeScript: catalogue, filters, cart, EN/DE, TWINT checkout and 31 automated tests.</p><span class="tag live"><a href="https://yigitdikmenq.github.io/alpenmarkt-store/" target="_blank" rel="noopener">Live demo ↗</a><a href="https://github.com/yigitdikmenq/alpenmarkt-store" target="_blank" rel="noopener">Code ↗</a></span></div>
       <div class="proj"><span class="n">02</span><h3>Business Website</h3><p>Bilingual (EN/DE) website for a local Swiss business.</p><span class="tag">Coming soon</span></div>
       <div class="proj"><span class="n">03</span><h3>SQL Reporting Toolkit</h3><p>Sample company database with reporting and data-validation queries.</p><span class="tag">Coming soon</span></div>
       <div class="proj"><span class="n">04</span><h3>IT Automation Scripts</h3><p>Small tools for health checks, log scanning and user setup.</p><span class="tag">Coming soon</span></div>
